@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Lab1_AccessModifiers/Lab1_AccessModifiers.csproj" Id="6e417300-c68e-46df-b4e4-708ae8114b30" />
+  <Project Path="StudentClient/StudentClient.csproj" Id="7111bfef-d646-40ac-8155-b74a663007d3" />
+  <Project Path="StudentLibrary/StudentLibrary.csproj" Id="1f693b07-eec5-47b9-8d40-ea431df4b681" />
+</Solution>

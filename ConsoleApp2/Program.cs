@@ -57,7 +57,7 @@ class Program
         Console.Write("Enter second number: ");
         num2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("\n----- Arithmetic Operations -----");
+        Console.WriteLine("\n Arithmetic Operations ");
         Console.WriteLine("Sum       : " + (num1 + num2));
         Console.WriteLine("Difference: " + (num1 - num2));
         Console.WriteLine("Product   : " + (num1 * num2));
@@ -154,7 +154,7 @@ class Program
         Console.Write("Enter second number: ");
         num2 = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("\n----- Calculator -----");
+        Console.WriteLine("\n Calculator ");
         Console.WriteLine("1. Addition");
         Console.WriteLine("2. Subtraction");
         Console.WriteLine("3. Multiplication");
@@ -340,7 +340,7 @@ class Program
 
         do
         {
-            Console.WriteLine("\n----- MENU -----");
+            Console.WriteLine("\n MENU ");
             Console.WriteLine("1. Check Even/Odd");
             Console.WriteLine("2. Find Largest of Three Numbers");
             Console.WriteLine("3. Calculate Factorial");

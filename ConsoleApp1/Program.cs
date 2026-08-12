@@ -15,6 +15,8 @@ namespace ConsoleApp1
         }
     }
 }*/
+
+// Check Number Positive or Negative
 /*using System;
 
 class Program
@@ -34,6 +36,8 @@ class Program
     }
 }*/
 
+//Check Even or Odd
+
 /*using System;
 
 class Program
@@ -50,6 +54,8 @@ class Program
         Console.ReadKey();
     }
 }*/
+
+//Check Voting Eligibility
 
 /*using System;
 
@@ -68,6 +74,8 @@ class Program
     }
 }*/
 
+//Check Pass or Fail
+
 /*using System;
 
 class Program
@@ -84,6 +92,8 @@ class Program
         Console.ReadKey();
     }
 }*/
+
+//Find Grade Using Else-If
 
 /*using System;
 
@@ -110,6 +120,8 @@ class Program
     }
 }*/
 
+//Check Divisible by 5 and 11
+
 /*using System;
 
 class Program
@@ -127,6 +139,8 @@ class Program
     }
 }*/
 
+//Check Leap Year
+
 /*using System;
 
 class Program
@@ -143,6 +157,8 @@ class Program
         Console.ReadKey();
     }
 }*/
+
+// Check Character Vowel or Consonant
 
 /*using System;
 
@@ -162,6 +178,8 @@ class Program
     }
 }*/
 
+//Check Number is 3 Digit
+
 /*using System;
 
 class Program
@@ -178,6 +196,8 @@ class Program
         Console.ReadKey();
     }
 }*/
+
+//Check Profit or Loss
 
 /*using System;
 
@@ -200,6 +220,7 @@ class Program
         Console.ReadKey();
     }
 }*/
+// calculator
 
 /*using System;
 
@@ -230,6 +251,9 @@ class Program
     }
 }*/
 
+//Nested If — Login Check
+
+
 /*using System;
 
 class Program
@@ -257,8 +281,31 @@ class Program
     }
 }*/
 
+//Check Temperature
+
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter temperature: ");
+        int temp = Convert.ToInt32(Console.ReadLine());
+
+        if (temp > 30)
+            Console.WriteLine("Hot");
+        else if (temp >= 15)
+            Console.WriteLine("Normal");
+        else
+            Console.WriteLine("Cold");
+    }
+}*/
+
+
 
 /* looping*/
+
+//Print 1 to 10 Using For Loop
 
 /*using System;
 
@@ -272,6 +319,8 @@ class Program
     }
 }*/
 
+// Print 10 to 1
+
 /*using System;
 
 class Program
@@ -284,6 +333,8 @@ class Program
     }
 }*/
 
+//Sum of 1 to N
+
 /*using System;
 
 class Program
@@ -295,6 +346,8 @@ class Program
      Console.ReadKey();
     }
 }*/
+
+//Multiplication Table
 
 /*using System;
 
@@ -311,6 +364,206 @@ class Program
             sum += i;
 
         Console.WriteLine("Sum = " + sum);
+        Console.ReadKey();
+    }
+}*/
+
+//Factorial Using For Loop
+
+
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 1; i <= 10; i++)
+            Console.WriteLine(n + " x " + i + " = " + (n * i));
+        Console.ReadKey();
+    }
+}*/
+
+//Reverse a Number
+
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int rev = 0;
+
+        while (n != 0)
+        {
+            int digit = n % 10;
+            rev = rev * 10 + digit;
+            n = n / 10;
+        }
+
+        Console.WriteLine("Reverse = " + rev);
+        Console.ReadKey();
+    }
+}*/
+
+//Count Digits
+
+
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int count = 0;
+
+        while (n != 0)
+        {
+            n = n / 10;
+            count++;
+        }
+
+        Console.WriteLine("Number of digits = " + count);
+        Console.ReadKey();
+    }
+}*/
+//Sum of Digits
+
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int sum = 0;
+
+        while (n != 0)
+        {
+            sum += n % 10;
+            n /= 10;
+        }
+
+        Console.WriteLine("Sum of digits = " + sum);
+        Console.ReadKey();
+    }
+}*/
+
+// Check Palindrome Number
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int original = n;
+        int reverse = 0;
+
+        while (n != 0)
+        {
+            reverse = reverse * 10 + n % 10;
+            n /= 10;
+        }
+
+        if (original == reverse)
+            Console.WriteLine("Palindrome");
+        else
+            Console.WriteLine("Not Palindrome");
+        Console.ReadKey();
+    }
+}*/
+
+// Check Prime Number
+
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        bool prime = true;
+
+        if (n < 2)
+            prime = false;
+
+        for (int i = 2; i <= n / 2; i++)
+        {
+            if (n % i == 0)
+            {
+                prime = false;
+                break;
+            }
+        }
+
+        if (prime)
+            Console.WriteLine("Prime Number");
+        else
+            Console.WriteLine("Not a Prime Number");
+        Console.ReadKey();
+    }
+}*/
+
+//Armstrong Number
+
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int original = n;
+        int sum = 0;
+
+        while (n != 0)
+        {
+            int digit = n % 10;
+            sum += digit * digit * digit;
+            n /= 10;
+        }
+
+        if (sum == original)
+            Console.WriteLine("Armstrong Number");
+        else
+            Console.WriteLine("Not Armstrong Number");
+        Console.ReadKey();
+    }
+}*/
+
+// Do-While Loop Example
+
+/*using System;
+
+class Program
+{
+    static void Main()
+    {
+        int i = 1;
+
+        do
+        {
+            Console.WriteLine(i);
+            i++;
+        }
+        while (i <= 10);
         Console.ReadKey();
     }
 }*/
