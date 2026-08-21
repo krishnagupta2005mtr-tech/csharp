@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="Assignment3/Q1_StudentUtility.csproj" />
+  <Project Path="Q10_Notification/Q10_Notification.csproj" />
+  <Project Path="Q2_BankAccount/Q2_BankAccount.csproj" />
+  <Project Path="Q3_Shape/Q3_Shape.csproj" />
+  <Project Path="Q4_EmployeePayroll/Q4_EmployeePayroll.csproj" />
+  <Project Path="Q5_VehiclePartial/Q5_VehiclePartial.csproj" />
+  <Project Path="Q6_StudentRecord/Q6_StudentRecord.csproj" />
+  <Project Path="Q7_GenericRepository/Q7_GenericRepository.csproj" />
+  <Project Path="Q8_UniversityNested/Q8_UniversityNested.csproj" />
+  <Project Path="Q9_AppConfiguration/Q9_AppConfiguration.csproj" />
+</Solution>
