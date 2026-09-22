@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Q_2 delegate.cs" />
+    <File Path="Q_3 delegate.cs" />
+    <File Path="Q_4 delegate.cs" />
+    <File Path="Q_5 delegate.cs" />
+    <File Path="Q_6 delegate.cs" />
+  </Folder>
+  <Project Path="delegate/delegate.csproj" Id="d49f1bf9-70e8-4c04-aae5-6c065733881a" />
+  <Project Path="Q_1 delegate2/Q_1 delegate2.csproj" Id="106fea99-0394-4b12-8dce-b40c223b413b" />
+</Solution>

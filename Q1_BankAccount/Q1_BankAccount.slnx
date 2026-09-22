@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Q2_ProductDiscount.cs" />
+    <File Path="Q3_EmployeeBonus.cs" />
+    <File Path="Q4_Temperature.cs" />
+    <File Path="Q5_ShoppingCart.cs" />
+    <File Path="Q6_ControlledBankAccount.cs" />
+    <File Path="Q7_EmployeePayroll.cs" />
+  </Folder>
+  <Project Path="Q1_BankAccount/Q1_BankAccount.csproj" />
+</Solution>
