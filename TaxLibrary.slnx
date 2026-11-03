@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="AttendanceApp/AttendanceApp.csproj" />
+  <Project Path="ClientApp1/ClientApp1.csproj" />
+  <Project Path="ClientApp2/ClientApp2.csproj" />
+  <Project Path="ExamApp/ExamApp.csproj" />
+  <Project Path="SalaryLibraryV1/SalaryLibraryV1.csproj" />
+  <Project Path="SalaryLibraryv2/SalaryLibraryv2.csproj" />
+  <Project Path="TaxConsoleApp/TaxConsoleApp.csproj" />
+  <Project Path="TaxLibrary/TaxLibrary.csproj" />
+  <Project Path="UniversityLibrary/UniversityLibrary.csproj" />
+</Solution>
